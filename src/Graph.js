@@ -31,6 +31,13 @@ class Graph extends Component {
     const NodeSubtypes = GraphConfig.NodeSubtypes;
     const EdgeTypes = GraphConfig.EdgeTypes;
 
+    const renderNodeText = (data, id, isSelected) => {
+      const title = data.title;
+      return (
+        <text>{title}</text>
+      );
+    };
+
     return (
       <div id='graph' style={{height: '100vh'}}>
         <GraphView  
@@ -40,6 +47,7 @@ class Graph extends Component {
           nodes={nodes}
           nodeSubtypes={NodeSubtypes}
           nodeTypes={NodeTypes}
+          renderNodeText={renderNodeText}
         />
       </div>
     );
