@@ -3,6 +3,7 @@
     {
       "id": "node1",
       "title": "The Phonies",
+      "type": "default",
       "x": 960,
       "y": 540
     },

@@ -26,7 +26,7 @@ const CustomEmptyShape = (
 );
 
 const DefaultShape = (
-  <symbol viewBox="-27 0 154 154" id="special" width="154" height="154">
+  <symbol viewBox="-27 0 154 154" id="special" width="154" height="154" id="default">
     <rect transform="translate(50) rotate(45)" width="109" height="109" />
   </symbol>
 );
