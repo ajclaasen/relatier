@@ -2,47 +2,119 @@
   "nodes": [
     {
       "id": "node1",
-      "title": "Node 1",
-      "type": "EMPTY_TYPE",
-      "x": "600",
-      "y": "200"
+      "title": "The Phonies",
+      "x": 960,
+      "y": 540
     },
     {
       "id": "node2",
-      "title": "Node 2",
-      "type": "EMPTY_TYPE",
-      "x": "1200",
-      "y": "200"
+      "title": "The Circle of Flame",
+      "x": 760,
+      "y": 240
     },
     {
       "id": "node3",
-      "title": "Node 3",
-      "type": "EMPTY_TYPE",
-      "x": "900",
-      "y": "600"
+      "title": "Lord Scurlock",
+      "x": 1510,
+      "y": 540
+    },
+    {
+      "id": "node4",
+      "title": "The Dimmer Sisters",
+      "x": 1000,
+      "y": 1000
+    },
+    {
+      "id": "node5",
+      "title": "The Gray Cloaks",
+      "x": 1360,
+      "y": 440
+    },
+    {
+      "id": "node6",
+      "title": "Skovlander Refugees",
+      "x": 1410,
+      "y": 1000
+    },
+    {
+      "id": "node7",
+      "title": "Spirit Wardens",
+      "x": 1060,
+      "y": 190
+    },
+    {
+      "id": "node8",
+      "title": "Bluecoats",
+      "x": 1160,
+      "y": 240
+    },
+    {
+      "id": "node9",
+      "title": "Cyphers",
+      "x": 1610,
+      "y": 1000
+    },
+    {
+      "id": "node10",
+      "title": "Ulf Ironborn",
+      "x": 1360,
+      "y": 640
     }
   ],
   "edges": [
     {
-      "handleText": "1",
-      "handleTooltipText": "1",
-      "source": "node1",
-      "target": "node2",
-      "type": "EMPTY_EDGE_TYPE"
-    },
-    {
-      "handleText": "2",
-      "handleTooltipText": "2",
+      "handleText": "-2",
+      "handleTooltipText": "Hostile",
       "source": "node2",
-      "target": "node3",
-      "type": "EMPTY_EDGE_TYPE"
+      "target": "node1"
     },
     {
-      "handleText": "3",
-      "handleTooltipText": "3",
+      "handleText": "+1",
+      "handleTooltipText": "Helpful",
       "source": "node3",
-      "target": "node1",
-      "type": "EMPTY_EDGE_TYPE"
+      "target": "node1"
+    },
+    {
+      "handleText": "-1",
+      "handleTooltipText": "Interfering",
+      "source": "node4",
+      "target": "node1"
+    },
+    {
+      "handleText": "+3",
+      "handleTooltipText": "Allies",
+      "source": "node5",
+      "target": "node1"
+    },
+    {
+      "handleText": "-1",
+      "handleTooltipText": "Interfering",
+      "source": "node6",
+      "target": "node1"
+    },
+    {
+      "handleText": "-1",
+      "handleTooltipText": "Interfering",
+      "source": "node7",
+      "target": "node1"
+    },
+    {
+      "handleText": "-1",
+      "handleTooltipText": "Interfering",
+      "source": "node8",
+      "target": "node1"
+    },
+    {
+      "handleText": "-1",
+      "handleTooltipText": "Interfering",
+      "source": "node9",
+      "target": "node1"
+    },
+    {
+      "handleText": "+2",
+      "handleTooltipText": "Friendly",
+      "source": "node10",
+      "target": "node1"
     }
   ]
 }
