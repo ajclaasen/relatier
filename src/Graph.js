@@ -6,10 +6,9 @@ import {
 
 import GraphConfig from './GraphConfig';
 
-const sample = {
-  edges: [],
-  nodes: [],
-};
+import data from './example-graph.json';
+
+const sample = data;
 
 class Graph extends Component {
 

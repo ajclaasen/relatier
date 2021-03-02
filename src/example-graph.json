@@ -1,0 +1,48 @@
+{
+  "nodes": [
+    {
+      "id": "node1",
+      "title": "Node 1",
+      "type": "EMPTY_TYPE",
+      "x": "600",
+      "y": "200"
+    },
+    {
+      "id": "node2",
+      "title": "Node 2",
+      "type": "EMPTY_TYPE",
+      "x": "1200",
+      "y": "200"
+    },
+    {
+      "id": "node3",
+      "title": "Node 3",
+      "type": "EMPTY_TYPE",
+      "x": "900",
+      "y": "600"
+    }
+  ],
+  "edges": [
+    {
+      "handleText": "1",
+      "handleTooltipText": "1",
+      "source": "node1",
+      "target": "node2",
+      "type": "EMPTY_EDGE_TYPE"
+    },
+    {
+      "handleText": "2",
+      "handleTooltipText": "2",
+      "source": "node2",
+      "target": "node3",
+      "type": "EMPTY_EDGE_TYPE"
+    },
+    {
+      "handleText": "3",
+      "handleTooltipText": "3",
+      "source": "node3",
+      "target": "node1",
+      "type": "EMPTY_EDGE_TYPE"
+    }
+  ]
+}
