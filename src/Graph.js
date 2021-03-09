@@ -34,7 +34,7 @@ class Graph extends Component {
     const renderNodeText = (data, id, isSelected) => {
       const title = data.title;
       return (
-        <text>{title}</text>
+        <text textAnchor="middle">{title}</text>
       );
     };
 
