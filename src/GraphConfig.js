@@ -32,8 +32,13 @@ const DefaultShape = (
 );
 
 const FactionShape = (
-  <symbol viewBox="-27 0 154 154" width="154" height="154" id="faction">
-    <rect transform="translate(50) rotate(45)" width="109" height="109" />
+  <symbol viewBox="0 0 200 100" width="200" height="100" id="faction">
+    <rect width="200" height="100" />
+    <foreignObject width="200" height="100">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <i class="fas fa-users fa-9x background-icon"></i>
+      </div>
+    </foreignObject>
   </symbol>
 );
 
