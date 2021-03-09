@@ -26,7 +26,13 @@ const CustomEmptyShape = (
 );
 
 const DefaultShape = (
-  <symbol viewBox="-27 0 154 154" id="special" width="154" height="154" id="default">
+  <symbol viewBox="-27 0 154 154" width="154" height="154" id="default">
+    <rect transform="translate(50) rotate(45)" width="109" height="109" />
+  </symbol>
+);
+
+const FactionShape = (
+  <symbol viewBox="-27 0 154 154" width="154" height="154" id="faction">
     <rect transform="translate(50) rotate(45)" width="109" height="109" />
   </symbol>
 );
@@ -66,6 +72,11 @@ export default {
       shape: DefaultShape,
       shapeId: '#default',
       typeText: 'Default',
+    },
+    faction: {
+      shape: FactionShape,
+      shapeId: '#faction',
+      typeText: 'Faction',
     },
   },
   NodeSubtypes: {},

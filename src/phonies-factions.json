@@ -3,61 +3,70 @@
     {
       "id": "node1",
       "title": "The Phonies",
-      "type": "default",
+      "type": "faction",
       "x": 960,
       "y": 540
     },
     {
       "id": "node2",
       "title": "The Circle of Flame",
+      "type": "faction",
       "x": 760,
       "y": 240
     },
     {
       "id": "node3",
       "title": "Lord Scurlock",
+      "type": "faction",
       "x": 1510,
       "y": 540
     },
     {
       "id": "node4",
       "title": "The Dimmer Sisters",
+      "type": "faction",
       "x": 1000,
       "y": 1000
     },
     {
       "id": "node5",
       "title": "The Gray Cloaks",
+      "type": "faction",
       "x": 1360,
       "y": 440
     },
     {
       "id": "node6",
       "title": "Skovlander Refugees",
+      "type": "faction",
       "x": 1410,
       "y": 1000
     },
     {
       "id": "node7",
       "title": "Spirit Wardens",
+      "type": "faction",
       "x": 1060,
       "y": 190
     },
     {
       "id": "node8",
       "title": "Bluecoats",
+      "type": "faction",
       "x": 1160,
       "y": 240
     },
     {
       "id": "node9",
       "title": "Cyphers",
+      "type": "faction",
       "x": 1610,
       "y": 1000
     },
     {
       "id": "node10",
       "title": "Ulf Ironborn",
+      "type": "faction",
       "x": 1360,
       "y": 640
     }

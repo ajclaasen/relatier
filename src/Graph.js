@@ -6,9 +6,9 @@ import {
 
 import GraphConfig from './GraphConfig';
 
-import data from './example-graph.json';
+import phoniesFactionGraph from './phonies-factions.json';
 
-const sample = data;
+const sample = phoniesFactionGraph;
 
 class Graph extends Component {
 
