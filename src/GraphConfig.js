@@ -36,7 +36,18 @@ const FactionShape = (
     <rect width="200" height="100" />
     <foreignObject width="200" height="100">
       <div xmlns="http://www.w3.org/1999/xhtml">
-        <i class="fas fa-users fa-9x background-icon"></i>
+        <i class="fas fa-users fa-9x background-icon" />
+      </div>
+    </foreignObject>
+  </symbol>
+);
+
+const SingleEntityShape = (
+  <symbol viewBox="0 0 200 100" width="200" height="100" id="singleEntity">
+    <rect width="200" height="100" />
+    <foreignObject width="200" height="100">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <i class="fas fa-user fa-9x background-icon" />
       </div>
     </foreignObject>
   </symbol>
@@ -83,6 +94,11 @@ export default {
       shapeId: '#faction',
       typeText: 'Faction',
     },
+    singleEntity: {
+      shape: SingleEntityShape,
+      shapeId: '#singleEntity',
+      typeText: 'Single Entity',
+    }
   },
   NodeSubtypes: {},
   EdgeTypes: {

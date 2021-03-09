@@ -69,6 +69,13 @@
       "type": "faction",
       "x": 1360,
       "y": 640
+    },
+    {
+      "id": "node11",
+      "title": "Adelaide Phroaig",
+      "type": "singleEntity",
+      "x": 540,
+      "y": 540
     }
   ],
   "edges": [
@@ -124,6 +131,11 @@
       "handleText": "+2",
       "handleTooltipText": "Friendly",
       "source": "node10",
+      "target": "node1"
+    },
+    {
+      "handleText": "Benefactor",
+      "source": "node11",
       "target": "node1"
     }
   ]
