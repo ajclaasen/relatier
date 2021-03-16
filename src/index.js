@@ -2,12 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Graph from './Graph';
+import CytoGraph from './CytoGraph';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Graph />
+    <CytoGraph />
   </React.StrictMode>,
   document.getElementById('root')
 );
